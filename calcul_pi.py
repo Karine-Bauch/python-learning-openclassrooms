@@ -9,7 +9,9 @@ def pi_calcul(total_loops):
     denominateur += 2 # Incrémentation de 2 du dénominateur
     counter += 1 # Incrémentation de 1 du compteur
     pi += (signe * 4 / denominateur) # ajout de la fraction à la valeur précédente de Pi
-  print(f"la valeur de pi après {counter} boucles est de {pi}");
+  # print("%.2f"%pi)
+  print(f"la valeur de pi après {counter} boucles est de {pi}")
+  # print("la valeur de pi après ", counter, " boucles est de ", "%.100f"%pi);;
 
 pi_calcul(5)
 pi_calcul(100)
@@ -18,6 +20,9 @@ pi_calcul(10000)
 pi_calcul(50000)
 pi_calcul(100000)
 
+"""
+print("commentaire en python")
+"""
 
 
 
