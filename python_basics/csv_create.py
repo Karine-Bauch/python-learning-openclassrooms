@@ -37,7 +37,7 @@ def etl():
   en_tete = ["titre", "description"]
   all_titles = extract_datas(titles)
   all_descriptions = extract_datas(descriptions)
-  load_datas("data.csv", en_tete, all_titles, all_descriptions)
+  load_datas("Bases-python/data.csv", en_tete, all_titles, all_descriptions)
 
 
 etl()
