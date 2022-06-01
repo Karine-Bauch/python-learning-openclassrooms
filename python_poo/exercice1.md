@@ -3,4 +3,7 @@
 | Boite à outils | Tournevis | Marteau |
 |---|---|---|
 | **Etat (Variables) :** tools | **Etat (Variables) :** size | **Etat (Variables) :** color |
-| **Comportement (méthodes) :** add_tools, remove_tools | **Comportement (méthodes) :** plant_nail, remove_nail, paint | **Comportement (méthodes) :** screw, unscrew |
+| **Comportement (méthodes) :** add_tool(tool), remove_tool(tool) | **Comportement (méthodes) :** tighten(screw), loosen(screw) | **Comportement (méthodes) :** hammer_in(nail), remove(nail), paint(color) |
+___
+
+
